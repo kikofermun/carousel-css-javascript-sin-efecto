@@ -1,0 +1,87 @@
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #000;
+    bottom: 0px;
+    margin: auto;
+}
+
+.container .img, .container .img_aux, .container .img_visible{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    display: none;
+}
+
+.container .img.actual{
+    display: block;
+}
+
+.img1{
+    background-image: url( 'imagenes/img1.jpg' );
+}
+
+.img2{
+    background-image: url( 'imagenes/img2.png' );
+}
+
+.img3{
+    background-image: url( 'imagenes/img3.jpg' );
+}
+
+.img4{
+    background-image: url( 'imagenes/img4.jpg' );
+}
+
+.img5{
+    background-image: url( 'imagenes/img5.jpg' );
+}
+
+.img6{
+    background-image: url( 'imagenes/img6.jpg' );
+}
+
+.img7{
+    background-image: url( 'imagenes/img7.png' );
+}
+
+.img8{
+    background-image: url( 'imagenes/img8.jpg' );
+}
+
+.arrow{
+    width: 10%;
+    height: 100%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    background-color: yellow;
+}
+
+.arrow.left{
+    background-image: url( 'imagenes/arrow-left.png' );
+    left: 0px;
+}
+
+.arrow.right{
+    background-image: url( 'imagenes/arrow-right.png' );
+    right: 0px;
+}
